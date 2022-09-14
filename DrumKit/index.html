@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/DrumKit/styles.css">
+    <title>Drum Kit</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="image">
+            <div class="key-container">
+            <div data-key="65"class="key">
+                <kbd class="key_char">A</kbd>
+                <span class="sound">CLAP</span>
+            </div>
+            <div data-key="83"class="key">
+                <kbd class="key_char">S</kbd>
+                <span class="sound">HIHAT</span>
+            </div>
+            <div data-key="68"class="key">
+                <kbd class="key_char">D</kbd>
+                <span class="sound">KICK</span>
+            </div>
+            <div data-key="70"class="key">
+                <kbd class="key_char">F</kbd>
+                <span class="sound">OPENHAT</span>
+            </div>
+            <div data-key="71"class="key">
+                <kbd class="key_char">G</kbd>
+                <span class="sound">BOOM</span>
+            </div>
+            <div data-key="72"class="key">
+                <kbd class="key_char">H</kbd>
+                <span class="sound">RIDE</span>
+            </div>
+            <div data-key="74"class="key">
+                <kbd class="key_char">J</kbd>
+                <span class="sound">SNARE</span>
+            </div>
+            <div data-key="75"class="key">
+                <kbd class="key_char">K</kbd>
+                <span class="sound">TOM</span>
+            </div>
+            <div data-key="76"class="key">
+                <kbd class="key_char">L</kbd>
+                <span class="sound">TINK</span>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+    <audio data-key="65" src="/DrumKit/audios/cymbal.mp3"></audio>
+    <audio data-key="83" src="/DrumKit/audios/hihat.mp3"></audio>
+    <audio data-key="68" src="/DrumKit/audios/snare.mp3"></audio>
+    <audio data-key="70" src="/DrumKit/audios/open_hat.mp3"></audio>
+    <audio data-key="71" src="/DrumKit/audios/bass_drum.mp3"></audio>
+    <audio data-key="72" src="/DrumKit/audios/ride.mp3"></audio>
+    <audio data-key="74" src="/DrumKit/audios/snare.mp3"></audio>
+    <audio data-key="75" src="/DrumKit/audios/tom.mp3"></audio>
+    <audio data-key="76" src="/DrumKit/audios/bu_dum.mp3"></audio>
+
+
+    <script src="/DrumKit/main.js"></script>
+    
+</body>
+</html>
